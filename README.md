@@ -34,7 +34,7 @@ O objetivo foi:
 - Conferi o conteúdo do arquivo:  
   - `cat SharedFolders/processes.csv`
 
-![Arquivo processes.csv criado](images/processes-csv.jpg)
+![Arquivo processes.csv criado](images/processes-csv.jpeg)
 
 > O arquivo `processes.csv` contém todos os processos ativos, filtrando os processos do root.
 
@@ -46,7 +46,7 @@ O objetivo foi:
 - Para sair do top, pressionei **q**.  
 - Também utilizei `top -hv` para ver opções e informações detalhadas.
 
-![Saída do comando top mostrando tarefas e uso de CPU/memória](images/top-output.jpg)
+![Saída do comando top mostrando tarefas e uso de CPU/memória](images/top-output.jpeg)
 
 ---
 
@@ -60,8 +60,8 @@ O objetivo foi:
 - Salvei e fechei o editor (**ESC → :wq → ENTER**)  
 - Validei a criação do cron job: `sudo crontab -l`
 
-![Criação do cron job](images/cron.jpg)  
-![Validação do cron job com crontab -l](images/installed-cron.jpg)
+![Criação do cron job](images/cron.jpeg)  
+![Validação do cron job com crontab -l](images/installed-cron.jpeg)
 
 > O cron job roda a cada hora e gera o arquivo `filteredAudit.csv` com os nomes de todos os arquivos `.csv` mascarados.
 
